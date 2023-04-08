@@ -5,7 +5,7 @@
 <style>
     
     h1 {color : black; font-size:100px ; text-align:center; 
-        border-bottom:5px solid black;
+        border-bottom:0px solid black;
         padding:50px;
         margin:0px;    }
     .saw{color: black ;   text-decoration-line:none}
@@ -21,6 +21,11 @@
     #grid { display:grid;  
             grid-template-columns: 350px 5fr;}
 
+
+      #gri {display:grid;  
+        grid-template-columns: 350px 5fr;
+        border-bottom:5px solid black ;}
+           
             a { color : black}
 </style>
 
@@ -31,8 +36,15 @@
 
 <body>
 
-    <h1><a href=index.html   style=" text-decoration-line:none">exercise education </a></h1>
-
+    <div id="gri">
+        <div>
+        <img src = 배경.jpg  width="400">
+            </div>
+        <div>
+            <h1><a href=index.html style=" text-decoration-line:none " >exercise education </a></h1>
+        </div>
+        </div>
+    
     <div id="grid">
     <div><ol>
         contents
