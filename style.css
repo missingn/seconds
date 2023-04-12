@@ -1,0 +1,24 @@
+
+    
+    h1 {color :red ; font-size:100px ; text-align:center; 
+        
+        padding:50px;
+        margin:0px;   }
+    .saw{color :;   text-decoration-line:none }
+    
+    ol {border-right:5px solid black ; 
+        width: 200px;
+        margin:0px;
+        
+        padding:50px;
+        font-size:50px;
+        }
+    #grid { display:grid;        ;
+            grid-template-columns: 350px 5fr;}
+    #gri {display:grid;  ;
+        grid-template-columns: 350px 5fr;
+        border-bottom:5px solid black;  }
+       
+           
+            
+           

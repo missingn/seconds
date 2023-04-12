@@ -2,31 +2,7 @@
 <!doctype html>
 <html>
 
-<style>
-    
-    h1 {color : red; font-size:100px ; text-align:center; 
-        border-bottom:0px solid black;
-        padding:50px;
-        margin:0px;   }
-    .saw{color:black;   text-decoration-line:none }
-    #active { color :black}
-    ol {border-right:5px solid black ; 
-        width: 200px;
-        margin:0px;
-        
-        padding:50px;
-        font-size:50px;
-        }
-    #grid { display:grid;  
-            grid-template-columns: 350px 5fr;}
-    #gri {display:grid;  
-        grid-template-columns: 350px 5fr;
-        border-bottom:5px solid black ;}
-           
-            a { color : black}
-
-            a :visited { color : gray}
-</style>
+<link rel="stylesheet" href="style.css">
 
 <head>
 <title> exercise- html </title>
@@ -36,13 +12,14 @@
 <body>
     <div id="gri">
     <div>
-    <img src = 배경.jpg  width="400">
+    <img src = 배경.jpg  width="500">
         </div>
     <div>
-        <h1><a href=index.html style=" text-decoration-line:none " >exercise education </a></h1>
+        <h1><a href=index.html style=" text-decoration-line:none ; ">exercise education </a></h1>
     </div>
     </div>
 
+     
     <div id="grid">
     <div><ol>
         contents
@@ -51,7 +28,40 @@
         <li><a class="saw" href="push up.html"> push up</a> </li>
         
        <li><a class="saw" href="pull up.html">  pull up</a> </li>
-       <br>  <br><br><br><br><br>
+      
+
+        <input type="button"  ; value="night"  onclick="   var target=document.querySelector('body');
+        if(this.value === 'night' ) { target.style.backgroundColor='black';
+       target.style.color='white' ;    
+            this.value='day';
+        var alist = document.querySelectorAll('a') ;
+        var i = 0; 
+        while (i < alist.length){alist[i].style.color='yellow'  ;
+                i=i+1; } 
+
+
+                document.querySelectorAll('#gird').style.border 
+    
+
+
+        }
+        
+       else {target.style.backgroundColor='white';
+       target.style.color='black'   
+            this.value='night' ;
+            var alist = document.querySelectorAll('a') ;
+        var i = 0; 
+        while (i < alist.length){alist[i].style.color='blue'  ;
+                i=i+1; } 
+        
+        
+        } 
+
+
+
+        ">
+       
+       <br><br><br><br><br><br><br><br><br><br>
 
 
 
@@ -62,24 +72,19 @@
     <p style="font-size:40px">
             
            <br>영상을 통해 운동을 배워봅시다. 
-            <br> 좌측에 있는 목차를 선택해주세요.
+            <br> 좌측에 있는 목차를 선택해주세요.  &nbsp &nbsp &nbsp &nbsp <span style="color:white; font-size:100px;">  짜 &nbsp &nbsp잔   </span>
+
+            
     </p>
 
         </div>   
+    
+
+    
+    
     </div>   
 
     
-
-
-
-
-
-
-
-
-
-
-
 </body>
 
 
