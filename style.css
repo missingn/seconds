@@ -6,7 +6,7 @@
         margin:0px;   }
     .saw{color :;   text-decoration-line:none }
     
-    ol {border-right:5px solid black ; 
+    ol {dd  ; 
         width: 200px;
         margin:0px;
         
@@ -19,6 +19,9 @@
         grid-template-columns: 350px 5fr;
         border-bottom:5px solid black;  }
        
-           
+        #grid2 {display:grid;  ;
+            
+            border-right:5px solid black; 
+            width:300px;}
             
            
