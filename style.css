@@ -4,9 +4,9 @@
         
         padding:50px;
         margin:0px;   }
-    .saw{color :;   text-decoration-line:none }
+    .saw{  text-decoration-line:none }
     
-    ol {dd  ; 
+    ol {
         width: 200px;
         margin:0px;
         
@@ -24,4 +24,7 @@
             border-right:5px solid black; 
             width:300px;}
             
+    #짜잔  {color: white; font-size:100px;}      
+    
+    p {font-size:70px}
            
